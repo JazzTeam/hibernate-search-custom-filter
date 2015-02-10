@@ -5,10 +5,10 @@
 <hibernate-configuration>
     <session-factory>
 
-        <property name="connection.url">jdbc:mysql://localhost:3306/h_search</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/bookstorage</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.username">root</property>
-        <property name="connection.password">sql</property>
+        <property name="connection.username">PUT_YOUR_DATABASE_USERNAME</property>
+        <property name="connection.password">PUT_YOUR_DATABASE_PASSWORD</property>
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 
         <property name="hbm2ddl.auto">create-drop</property>
